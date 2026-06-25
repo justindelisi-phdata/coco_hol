@@ -201,7 +201,7 @@ Takes the current Snowflake connection for Cortex and uses it to configure the p
 #### Step 6: Validate the Script
 
 **Example prompt:**
-> *Run medallion_financial_services_snowflake.sql in Snowflake using ds-exec skill to validate it runs , and fix any issues if any occur* 
+> *Run medallion_financial_services.sql in Snowflake using ds-exec skill to validate it runs , and fix any issues if any occur* 
 
 CoCo will run the scripts using the Toolkit execute skill and validate that there were no errors.
 
